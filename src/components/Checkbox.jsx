@@ -4,9 +4,10 @@ const Checkbox = ({ label, checked, ...props }) => {
 	const defaultChecked = checked ? checked : false;
 	const [isChecked, setIsChecked] = useState(defaultChecked);
 	return (
-		<div className="checkbox">
+		<div className="checkbox input-control">
 			<label>
 				<input
+					required
 					id="checkbox"
 					type="checkbox"
 					checked={isChecked}
@@ -14,6 +15,7 @@ const Checkbox = ({ label, checked, ...props }) => {
 					className={isChecked ? "checked" : ""}
 					{...props}
 				/>
+				<div class="error" data-error="Please click this box to processedw"></div>
 			</label>
 			<span>{label}</span>
 		</div>
