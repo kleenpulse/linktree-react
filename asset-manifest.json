@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/linktree/static/css/main.7c387c67.css",
+    "main.js": "/linktree/static/js/main.de8c1af4.js",
+    "static/media/hero.jpg": "/linktree/static/media/hero.9a20db95027ea50e934d.jpg",
+    "static/media/slack.png": "/linktree/static/media/slack.65892b3ce88d3ff8bc35.png",
+    "static/media/github.png": "/linktree/static/media/github.d36bd76510387e60231d.png",
+    "index.html": "/linktree/index.html",
+    "main.7c387c67.css.map": "/linktree/static/css/main.7c387c67.css.map",
+    "main.de8c1af4.js.map": "/linktree/static/js/main.de8c1af4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c387c67.css",
+    "static/js/main.de8c1af4.js"
+  ]
+}
